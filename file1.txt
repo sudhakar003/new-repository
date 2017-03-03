@@ -1,0 +1,17 @@
+Configure the author name and email address to be used with your commits.
+Note that Git strips some characters (for example trailing periods) from user.name.
+git config --global user.name "Sam Smith"
+git config --global user.email sam@example.com
+Create a working copy of a local repository:	
+git clone /path/to/repository
+For a remote server, use:	
+git clone username@host:/path/to/repository
+Add files
+Add one or more files to staging (index):	
+git add <filename>
+
+git add *
+Commit changes to head (but not yet to the remote repository):	
+git commit -m "Commit message"
+Commit any files you've added with git add, and also commit any files you've changed since then:	
+git commit -a
